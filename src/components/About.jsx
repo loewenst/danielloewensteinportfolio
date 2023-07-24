@@ -87,12 +87,6 @@ const About = () => {
             <br />
             Egolessness
             <br />
-            Flow
-            <br />
-            Playing to Strengths
-            <br />
-            Positivity
-            <br />
             Respect
             <br />
             <br />
@@ -101,6 +95,12 @@ const About = () => {
             <br />
             <br />
             Deep Work
+            <br />
+            Flow
+            <br />
+            Playing to Strengths
+            <br />
+            Positivity
             <br />
           </CardBody>
         </Card>
