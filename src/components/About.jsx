@@ -5,14 +5,15 @@ const About = () => {
     <div>
       <div style={{ backgroundColor: 'teal', height: '35vh' }}>
         <br />
-        <h5 className="sectionHeader">About Me</h5>
-        <p className="sectionText">Some intro text about me.</p>
+        <br />
+        <h3 className="sectionHeader">About Me</h3>
+        <p className="sectionText"></p>
       </div>
       <CardGroup
         style={{
           marginLeft: '10vh',
           marginRight: '10vh',
-          marginTop: '-100px',
+          marginTop: '-120px',
           paddingTop: '30px'
         }}
       >
