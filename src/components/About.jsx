@@ -105,7 +105,40 @@ const About = () => {
           </CardBody>
         </Card>
         <Card>
-          <CardBody style={{ textAlign: 'center' }}>Background</CardBody>
+          <CardBody style={{ textAlign: 'center' }}>
+            {' '}
+            <br />
+            Background
+            <br />
+            <br />
+            Here are some of the highlights of my academic and professional
+            career, B.C. (before coding).
+            <br />
+            <br />
+            <br />
+            Academic Background:
+            <br />
+            <br />
+            PhD, Education and Jewish Studies
+            <br />
+            -New York University <br /> MS, Jewish Education <br />
+            -Yeshiva University <br />
+            BA, Hebrew Language <br />
+            -Yeshiva University <br />
+            <br />
+            <br />
+            Professional Background:
+            <br />
+            <br />
+            Senior Scholar <br />
+            Content Writer <br />
+            -Aleph Beta <br />
+            <br />
+            English Teacher <br />
+            Creative Writing Teacher <br />
+            Poetry Slam Coach <br />
+            -Midreshet Shalhevet High School <br />
+          </CardBody>
         </Card>
       </CardGroup>
     </div>
