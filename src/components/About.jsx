@@ -1,4 +1,6 @@
 import { Card, CardGroup, CardBody } from 'reactstrap'
+import * as BiIcons from 'react-icons/bi'
+import * as BsIcons from 'react-icons/bs'
 
 const About = () => {
   return (
@@ -19,6 +21,9 @@ const About = () => {
       >
         <Card>
           <CardBody style={{ textAlign: 'center' }}>
+            <br />
+            <BsIcons.BsStack size={70} />
+            <br />
             <br />
             Full-Stack Development
             <br />
@@ -66,6 +71,9 @@ const About = () => {
         <Card>
           <CardBody style={{ textAlign: 'center' }}>
             <br />
+            <BsIcons.BsFillClipboard2HeartFill size={70} />
+            <br />
+            <br />
             Principles & Values
             <br />
             <br />
@@ -107,7 +115,9 @@ const About = () => {
         </Card>
         <Card>
           <CardBody style={{ textAlign: 'center' }}>
-            {' '}
+            <br />
+            <BiIcons.BiSolidRewindCircle size={70} />
+            <br />
             <br />
             Background
             <br />

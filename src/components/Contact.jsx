@@ -6,12 +6,13 @@ const Contact = () => {
       <br />
       <br />
       <h3 className="sectionHeader">Contact</h3>
+      <br />
       <p className="sectionText">
         <a
           href="mailto:loewenst@gmail.com"
           style={{ color: 'white', textDecoration: 'none' }}
         >
-          <AiIcons.AiOutlineMail /> Email
+          <AiIcons.AiOutlineMail size={50} />
         </a>
         <a
           href="https://www.linkedin.com/in/daniel-z-loewenstein/"
@@ -21,7 +22,7 @@ const Contact = () => {
             paddingLeft: '10px'
           }}
         >
-          <AiIcons.AiOutlineLinkedin /> LinkedIn
+          <AiIcons.AiOutlineLinkedin size={50} />
         </a>
       </p>
     </div>
