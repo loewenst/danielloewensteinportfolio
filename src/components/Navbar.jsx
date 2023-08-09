@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { HashLink } from 'react-router-hash-link'
 import { Navbar, NavbarBrand, NavLink, NavbarToggler } from 'reactstrap'
 import { useMediaQuery } from 'react-responsive'
 
@@ -17,6 +17,13 @@ const NavBar = (props) => {
     } else {
       return 'none'
     }
+  }
+
+  const hashLinkStyle = {
+    paddingLeft: '10px',
+    display: `${checkSizeTopBar()}`,
+    textDecoration: 'none',
+    color: 'black'
   }
 
   return (
@@ -38,21 +45,15 @@ const NavBar = (props) => {
             style={{ height: '8vh' }}
           />
         </NavbarBrand>
-        <NavLink
-          style={{ paddingLeft: '10px', display: `${checkSizeTopBar()}` }}
-        >
+        <HashLink to="#about-me" style={hashLinkStyle}>
           About Me
-        </NavLink>
-        <NavLink
-          style={{ paddingLeft: '10px', display: `${checkSizeTopBar()}` }}
-        >
+        </HashLink>
+        <HashLink to="#projects" style={hashLinkStyle}>
           Projects
-        </NavLink>
-        <NavLink
-          style={{ paddingLeft: '10px', display: `${checkSizeTopBar()}` }}
-        >
+        </HashLink>
+        <HashLink to="#contact" style={hashLinkStyle}>
           Contact
-        </NavLink>
+        </HashLink>
       </div>
       <NavbarToggler
         onClick={props.toggleNav}

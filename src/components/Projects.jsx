@@ -12,7 +12,7 @@ const Projects = () => {
   }
 
   return (
-    <div>
+    <div id="projects">
       <div style={{ backgroundColor: 'teal', height: '35vh' }}>
         <br />
         <br />
