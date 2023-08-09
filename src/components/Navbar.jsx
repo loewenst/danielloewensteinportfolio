@@ -39,11 +39,13 @@ const NavBar = (props) => {
         }}
       >
         <NavbarBrand>
-          <img
-            src="https://i.imgur.com/x66YOBs.png"
-            alt="DL"
-            style={{ height: '8vh' }}
-          />
+          <HashLink to="/">
+            <img
+              src="https://i.imgur.com/x66YOBs.png"
+              alt="DL"
+              style={{ height: '8vh' }}
+            />
+          </HashLink>
         </NavbarBrand>
         <HashLink to="#about-me" style={hashLinkStyle}>
           About Me
