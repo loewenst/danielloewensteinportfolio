@@ -16,6 +16,8 @@ const Projects = () => {
     return {
       height: '18vw',
       width: '28vw',
+      minHeight: '225px',
+      minWidth: '350px',
       margin: '15px',
       borderRadius: '15px',
       border: 'none',
@@ -42,7 +44,14 @@ const Projects = () => {
           justifyContent: 'center'
         }}
       >
-        <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: '-120px' }}>
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            marginTop: '-120px'
+          }}
+        >
           <Card
             onClick={() => toggleModal('SDSL')}
             style={cardStyle('https://i.imgur.com/b4m7vyE.jpg')}
