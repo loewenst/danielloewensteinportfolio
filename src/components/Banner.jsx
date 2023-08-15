@@ -17,8 +17,8 @@ const Banner = () => {
       <div id="leftSide">
         <h1>Hi, I'm Daniel</h1>
         <p style={{ color: 'grey' }}>
-          I'm a FullStack Web Developer who loves solving problems, being a team
-          player and finding ways to help.
+          I'm a Full Stack Web Developer who loves solving problems, being a
+          team player and finding ways to help.
         </p>
         <br />
         <div
