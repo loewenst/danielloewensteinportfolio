@@ -6,34 +6,11 @@ const Banner = () => {
       <div id="leftSide">
         <h1>Hi, I'm Daniel</h1>
         <p style={{ color: 'grey' }}>
-          I'm a Full Stack Web Developer who loves coming up with plans, solving
-          problems, being a thought partner, and losing myself in my work.
+          I'm a Full Stack Web Developer who loves strategizing and planning,
+          solving problems, being a thought partner, and losing myself in my
+          work.
         </p>
         <br />
-        <div
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}
-        >
-          <a
-            href="https://github.com/loewenst"
-            style={{ textDecoration: 'none', color: 'black' }}
-          >
-            <FaIcons.FaGithubSquare size={40} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/daniel-z-loewenstein/"
-            style={{
-              textDecoration: 'none',
-              color: 'black'
-            }}
-          >
-            <FaIcons.FaLinkedin size={40} />
-          </a>
-        </div>
       </div>
       <div id="rightSide">
         <img
